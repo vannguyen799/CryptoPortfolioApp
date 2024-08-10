@@ -1,5 +1,5 @@
 function initilizeTriggers(__fnScope) {
-      // TriggerFnScope.instance.triggerManager.clearTriggers()
+    // TriggerFnScope.instance.triggerManager.clearTriggers()
 
     TriggerFnScope.instance.init(__fnScope);
 }
@@ -8,10 +8,6 @@ function initilizeTriggers(__fnScope) {
 function onOpen() {
     menu();
 }
-
-
-
-
 
 class TriggerFnScope extends SM.Trigger.TriggerFunctionScope {
     constructor() {

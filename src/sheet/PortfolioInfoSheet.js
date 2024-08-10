@@ -25,7 +25,7 @@ class PortfolioInfoSheet extends SheetManager {
         }
         if (ticker.length == 0) return;
         log(ticker);
-        const infoRes =CryptoTracker.getProjectInfo(ticker);
+        const infoRes = CryptoTracker.getProjectInfo(ticker);
         // log(infoRes);
         const startTableRow = 5; //fix
         let countRow = 1;
@@ -119,7 +119,7 @@ class PortfolioInfoChartSheet extends SheetManager {
 }
 
 class PortfolioInfoRow {
-    constructor() {}
+    constructor() { }
     setSymbol(symbol) {
         this.symbol = symbol;
     }
