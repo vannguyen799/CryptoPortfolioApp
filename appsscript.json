@@ -1,0 +1,21 @@
+{
+  "timeZone": "Asia/Ho_Chi_Minh",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "SM",
+        "libraryId": "1b7UprYdl0db4UPtsvLcUftOVIn1OM4_RsSlgVtsbXOmgunNsQPM-hPY5",
+        "version": "0",
+        "developmentMode": true
+      },
+      {
+        "userSymbol": "CryptoTracker",
+        "libraryId": "1aug-N4HKKNO83PG7f_bl9-9HXeBlka4s7CoQNlp3sMdh4VCWcR32qZ-p",
+        "version": "0",
+        "developmentMode": true
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
